@@ -45,7 +45,7 @@ body {
   left: 12px;
 }
 .title-option {
-  size: 32px;
+  font-size: 32px;
   color: #3f3f3f;
 }
 .line-title-option {
@@ -106,7 +106,7 @@ body {
 }
 .feature-title {
   margin-top: 20px;
-  size: 12px;
+  font-size: 12px;
   color: #3f3f3f;
   text-shadow: 0 3px 0 #00000029;
 }
@@ -133,4 +133,17 @@ body {
 }
 .rounded-1::placeholder{
     color: #BDBDBD;
+}
+.site-content{
+    float: left;
+    width: 477px;
+    margin:177px 0 0 107px;
+}
+.title-site-content{
+color: #3F3F3F;
+font-size: 47px;
+}
+.description-site-content{
+    color:#8B8B8B;
+    font-size:16px;
 }
