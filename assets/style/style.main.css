@@ -119,5 +119,18 @@ body {
     background-size: cover;
 }
 .rounded-1{
-    border-radius:3%;
+    border-radius:6px;
+    box-shadow: 0 3px 0 #00000029;
+    height: 45px;
+
+}
+.line-title-option-send-Request{
+    width: 144px;
+    margin-left: 30%;
+}
+.form-send-request{
+    margin-top:44px;
+}
+.rounded-1::placeholder{
+    color: #BDBDBD;
 }
