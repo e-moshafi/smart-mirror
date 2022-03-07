@@ -6,3 +6,17 @@ body {
     height: 100%;
     background-color: #E5E5E5;
 }
+.header-container{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #D6D6D6;
+    height:118px;
+}
+.header-logo{
+    width: 181px;
+    height: 30px;
+    float: right;
+    margin:44px 162px 0 0;
+}
