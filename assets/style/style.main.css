@@ -4,7 +4,7 @@ html {
 
 body {
   height: 100% !important;
-  background-color: #e5e5e5 !important;
+  background-color: #FBFBFB !important;
 }
 /* .header-container{
     position:fixed;
@@ -93,14 +93,31 @@ body {
   margin-top: 33px;
 }
 .icon-bluetooth {
-    margin-left: 31px;
-    margin-top: 27px;
-  }
+  margin-left: 31px;
+  margin-top: 27px;
+}
+.icon-snow {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.icon-screen {
+  margin-left: 32px;
+  margin-top: 32px;
+}
 .feature-title {
   margin-top: 20px;
   size: 12px;
   color: #3f3f3f;
   text-shadow: 0 3px 0 #00000029;
-
 }
-
+.send-request {
+    width: 98%;
+    height: 523px;
+    background-image: url("../images/viros-section.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rounded-1{
+    border-radius:3%;
+}
