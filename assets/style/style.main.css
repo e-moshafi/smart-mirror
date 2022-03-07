@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    height: 100%;
-    background-color: #E5E5E5;
+    height: 100% !important;
+    background-color: #E5E5E5 !important;
 }
-.header-container{
+/* .header-container{
     position:fixed;
     width: 100%;
     top: 0;
@@ -19,4 +19,31 @@ body {
     height: 30px;
     float: right;
     margin:44px 162px 0 0;
+} */
+.border-image-viros{
+    width:531px;
+    height: 314px;
+    border-radius:65px;
+    border:1px solid #B4C9F1;
+    position: relative;
+    box-shadow:0 3px 0 #00000029;
+}
+.image-viros{
+    width:507.83px;
+    height: 291px;
+    position: absolute;
+    top:12px;
+    left:12px;
+    box-shadow:0 3px 0 #00000029;
+
+}
+.title-option{
+    size:32px;
+    /* border-bottom: 4px solid #3667C6; */
+}
+.line-title-option{
+    width: 133px;
+    height: 4px;
+    background-color: #3667C6;
+    border-radius: 8px;
 }
