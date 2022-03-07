@@ -34,16 +34,21 @@ body {
     position: absolute;
     top:12px;
     left:12px;
-    box-shadow:0 3px 0 #00000029;
 
 }
 .title-option{
     size:32px;
-    /* border-bottom: 4px solid #3667C6; */
+    color:#3F3F3F;
 }
 .line-title-option{
     width: 133px;
     height: 4px;
     background-color: #3667C6;
     border-radius: 8px;
+    margin-top: 10px;
+}
+.description-option{
+    margin-top:17px;
+    color:#777777;
+    width:483px;
 }
