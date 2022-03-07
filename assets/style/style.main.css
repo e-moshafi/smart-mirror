@@ -172,9 +172,16 @@ font-size: 47px;
     width: 270px;
     height: 35px;
     margin-top:7px;
-    margin-left: 275px;
+    margin-left: 349px;
     float:left;
+    padding:6px;
 }
+.footer-social a {
+    font-size:16px;
+    color: #fff;
+   margin-left:11px;
+}
+
 .copy-site-content{
     float:right;
     margin-top:14px;
