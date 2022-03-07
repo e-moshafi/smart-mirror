@@ -41,14 +41,37 @@ body {
     color:#3F3F3F;
 }
 .line-title-option{
-    width: 133px;
     height: 4px;
     background-color: #3667C6;
     border-radius: 8px;
     margin-top: 10px;
+    box-shadow:0 3px 0 #00000029;
+}
+.line-title-option-about-product{
+    width: 133px;
 }
 .description-option{
     margin-top:17px;
     color:#777777;
     width:483px;
+}
+.space-row{
+    height: 108px;
+}
+.line-title-option-feature{
+    width: 49px;
+    margin-left: 40%;
+}
+.feature-box{
+    margin-top: 24px;
+}
+.feature-option{
+    width: 135px;
+    height: 136px;
+    border-radius:41px;
+    background-color: #E3EDFF;
+}
+.icon{
+margin-left:32px;
+margin-top:41px;
 }
