@@ -180,3 +180,11 @@ font-size: 47px;
     margin-top:14px;
     margin-right: 105px;
 }
+.btn-send-request{
+    background-color:#DD601A;
+    color:#FBFBFB;
+    border-radius:7px;
+    margin-top:25px;
+    box-shadow: 0 3px 0 #00000029;
+
+}
