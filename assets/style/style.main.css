@@ -92,8 +92,15 @@ body {
   margin-left: 33px;
   margin-top: 33px;
 }
+.icon-bluetooth {
+    margin-left: 31px;
+    margin-top: 27px;
+  }
 .feature-title {
   margin-top: 20px;
   size: 12px;
   color: #3f3f3f;
+  text-shadow: 0 3px 0 #00000029;
+
 }
+
