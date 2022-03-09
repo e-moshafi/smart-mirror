@@ -1,8 +1,13 @@
+@font-face {
+  font-family: roboto;
+  src: url("../font/Roboto-Medium.woff");
+}
 html {
   scroll-behavior: smooth;
 }
 
 body {
+  font-family: roboto !important;
   height: 100% !important;
   background-color: #fbfbfb !important;
 }
