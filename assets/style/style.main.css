@@ -19,36 +19,43 @@ body {
   height: 100% !important;
   background-color: #fbfbfb !important;
 }
-.header-container{
-  position:fixed;
+.header-container {
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   background-color: #fff;
-  height:65px;
+  height: 65px;
   z-index: 1000;
-  border-radius: 0 0 18px 18px ;
+  border-radius: 0 0 18px 18px;
 }
-.header-logo-desktop{
+.header-logo-desktop {
   width: 135px;
-  height:23px;
-  margin-top:23px;
-  margin-right:120px;
-  float:right;
+  height: 23px;
+  margin-top: 23px;
+  margin-right: 120px;
+  float: right;
 }
-.header-menu-list{
-  list-style-type:none ;
+.header-menu-list {
+  list-style-type: none;
   float: left;
-  margin-top:23px;
-  margin-left:120px;
+  margin-top: 23px;
+  margin-left: 120px;
   padding: 0;
 }
-.header-menu-list li{
-float:left;
-margin-left:24px;
-font-size: 14px;
-font-family: roboto-regular !important;
+.header-menu-list li {
+  display: inline-block;
+  margin-left: 24px;
+  font-size: 14px;
+  font-family: roboto-regular !important;
 }
+.header-menu-list li .active{
+  width: 51px;
+  height: 3px;
+  background-color: #3667c6;
+  margin-top: -8px;
+}
+
 .border-image-viros {
   width: 531px;
   height: 314px;
