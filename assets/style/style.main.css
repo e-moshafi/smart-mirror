@@ -33,6 +33,16 @@ body {
     float: right;
     margin:44px 162px 0 0;
 } */
+.header-container{
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  height:65px;
+  z-index: 1000;
+  border-radius: 0 0 18px 18px ;
+}
 .border-image-viros {
   width: 531px;
   height: 314px;
