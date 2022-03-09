@@ -1,13 +1,21 @@
 @font-face {
-  font-family: roboto;
+  font-family: roboto-medium;
   src: url("../font/Roboto-Medium.woff");
+}
+@font-face {
+  font-family: roboto-black;
+  src: url("../font/Roboto-Black.woff");
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url("../font/Roboto-Regular.woff");
 }
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: roboto !important;
+  font-family: roboto-medium !important;
   height: 100% !important;
   background-color: #fbfbfb !important;
 }
@@ -64,6 +72,7 @@ body {
   width: 133px;
 }
 .description-option {
+  font-family: roboto-black !important;
   margin-top: 17px;
   color: #777777;
   width: 483px;
@@ -114,6 +123,7 @@ body {
   font-size: 12px;
   color: #3f3f3f;
   text-shadow: 0 3px 0 #00000029;
+  font-family: roboto-regular !important;
 }
 .send-request {
   width: 98%;
@@ -147,10 +157,12 @@ body {
 .title-site-content {
   color: #3f3f3f;
   font-size: 47px;
+  font-family: roboto-black !important;
 }
 .description-site-content {
   color: #8b8b8b;
   font-size: 16px;
+  font-family: roboto-regular !important;
 }
 .line-section {
   position: absolute;
@@ -191,6 +203,7 @@ body {
   float: right;
   margin-top: 14px;
   margin-right: 105px;
+  font-family: roboto-regular !important;
 }
 .btn-send-request {
   background-color: #dd601a;
