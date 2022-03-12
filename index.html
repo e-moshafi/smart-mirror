@@ -8,8 +8,10 @@
     <title>smart Mirror</title>
     <link rel="stylesheet" href="assets/style/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/style/style.main.css" />
+        <link rel="stylesheet" href="assets/style/style.mobile.css" />
     <link rel="stylesheet" href="assets/style/fontawesome/css/font-awesome.css" />
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </head>
 
@@ -20,15 +22,15 @@
                 <ul class="header-menu-list">
                     <li>
                         <p>About Product</p>
-                        <div class="line-active active"></div>
+                        <div class="line-active active" id="about-product-line-menu"></div>
                     </li>
                     <li>
                         <p>Features</p>
-                        <div class="line-active"></div>
+                        <div class="line-active" id="features-line-menu"></div>
                     </li>
                     <li>
                         <p>Send  Request</p>
-                        <div class="line-active"></div>
+                        <div class="line-active" id="send-request-line-menu"></div>
                     </li>
                 </ul>
                 
@@ -82,13 +84,13 @@
                 </div>
             </div>
             <div class="space-row"></div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" >
                 <div class="col-md-3">
                     <h1 class="title-option text-center"> Features </h1>
                     <div class="line-title-option line-title-option-feature"></div>
                 </div>
             </div>
-            <div class="row justify-content-center feature-box">
+            <div class="row justify-content-center feature-box" id="features">
                 <div class="col-md-2">
                     <div class="feature-option justify-content-center">
                         <img src="assets/images/icon/screen.svg" class="icon-screen" alt="screen" />
@@ -131,7 +133,7 @@
         </div>
     </main>
     <div class="space-row"></div>
-    <section class="send-request">
+    <section class="send-request" id="features">
         <div class="row justify-content-center">
             <div class="col-md-3">
                 <h1 class="title-option text-center"> Send Request to us </h1>
