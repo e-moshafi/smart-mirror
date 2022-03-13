@@ -61,6 +61,8 @@ body {
     text-decoration: none;
     color: #696767;
   }
+  .header-menu-list li a:hover{
+  }
   .header-menu-list li .line-active{
     width: 51px;
     height: 3px;
