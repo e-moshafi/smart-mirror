@@ -145,6 +145,7 @@ body {
     border-radius: 41px;
     background-color: #e3edff;
     margin-left: 7px;
+    margin-top:26px
   }
   .icon-earth {
     margin-left: 18px;
@@ -180,12 +181,12 @@ body {
     margin-left:10px
   }
   .send-request {
-    width: 98%;
+    width: 100%;
     height: 523px;
-    background-image: url("../images/viros-section.svg");
+    background-image: url("../images/viros-section-mobile.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% ;
   }
   .rounded-1 {
     border-radius: 6px;
