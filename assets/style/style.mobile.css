@@ -27,27 +27,39 @@
       top: 0;
       left: 0;
       background-color: #fff;
-      height: 65px;
+      height: 60px;
       z-index: 1000;
       border-radius: 0 0 18px 18px;
     }
     .header-logo-desktop {
-      width: 135px;
-      height: 23px;
-      margin-top: 23px;
-      margin-right: 120px;
-      float: right;
+display: none;
     }
     .header-menu-list {
       list-style-type: none;
       float: left;
-      margin-top: 23px;
-      margin-left: 120px;
-      padding: 0;
+      position:fixed;
+      padding: 10px;
+      border-radius:10px;
+      background:#fff;
+      width: 151px;
+      top:30px;
+      display:none;
+    }
+    .active{
+        display:block;
+    }
+    .header-menu .bars{
+        background: #414141 ;
+        width:32px;
+        height:32px;
+        color: #fff;
+        font-size:20px;
+        text-align:center;
+        border-radius:7px;
+        margin-top:12px;
+        margin-left:25px;
     }
     .header-menu-list li {
-      display: inline-block;
-      margin-left: 24px;
       font-size: 14px;
       font-family: roboto-regular !important;
     }
@@ -59,7 +71,7 @@
       display:none;
     }
     .header-menu-list li .active{
-      display:block !important;
+      display:none !important;
     }
     .border-image-viros {
       width: 531px;
