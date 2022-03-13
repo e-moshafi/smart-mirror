@@ -91,8 +91,8 @@ body {
   .header-section {
     position: relative;
     width: 100%;
-    height: 600px;
-    background-image: url("../images/header-section.svg");
+    height: 739px;
+    background-image: url("../images/header-section-mobile.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,21 +197,29 @@ body {
     font-family: FontAwesome;
   }
   .site-content {
-    float: left;
-    width: 477px;
-    margin: 177px 0 0 107px;
+    position: absolute;
+    top: 405px;
+    width: 100%;
+    text-align: center;
+
   }
   .title-site-content {
     color: #3f3f3f;
-    font-size: 47px;
+    font-size: 36px;
     font-family: roboto-black !important;
   }
   .description-site-content {
     color: #8b8b8b;
-    font-size: 16px;
+    font-size: 14px;
     font-family: roboto-regular !important;
+    width: 322px;
+    margin-left:24px ;
+    margin-top:8px;
   }
-  .line-section {
+  .line-section{
+      display: none;
+  }
+  .line-section-mobile {
     position: absolute;
     width: 100%;
     left: 0;
