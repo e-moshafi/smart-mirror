@@ -249,28 +249,19 @@ width: 100% !important;
     width: 105px;
     height: 24px;
     float: left;
-    margin-left: 130px;
-    margin-top: 13px;
+    margin-left: 39px;
+    margin-top: 8px;
   }
   .footer-social {
-    width: 270px;
-    height: 35px;
-    margin-top: 7px;
-    margin-left: 349px;
-    float: left;
-    padding: 6px;
-  }
-  .footer-social a {
-    font-size: 16px;
-    color: #fff;
-    margin-left: 11px;
+  display:none
   }
 
   .copy-site-content {
     float: right;
-    margin-top: 14px;
-    margin-right: 105px;
+    margin-top: 11px;
+    margin-right:36px;
     font-family: roboto-regular !important;
+    font-size: 12px;
   }
   .btn-send-request {
     background-color: #dd601a;
