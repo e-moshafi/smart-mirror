@@ -8,7 +8,7 @@
     <title>smart Mirror</title>
     <link rel="stylesheet" href="assets/style/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/style/style.main.css" />
-        <link rel="stylesheet" href="assets/style/style.mobile.css" />
+    <link rel="stylesheet" href="assets/style/style.mobile.css" />
     <link rel="stylesheet" href="assets/style/fontawesome/css/font-awesome.css" />
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
@@ -17,30 +17,36 @@
 
 <body>
     <header class="header-container">
-            
-            <div class="header-menu">
-                <div class="bars" onclick="open_menu_mobile_menu()"><i class="fa fa-bars bars-menu-icon"></i></div>
-                <ul class="header-menu-list ">
-                    <li>
-                        <p>About Product</p>
-                        <div class="line-active active" id="about-product-line-menu"></div>
-                    </li>
-                    <li>
-                        <p>Features</p>
-                        <div class="line-active" id="features-line-menu"></div>
-                    </li>
-                    <li>
-                        <p>Send  Request</p>
-                        <div class="line-active" id="send-request-line-menu"></div>
-                    </li>
-                </ul>
-                
-            </div>
-            <img src="assets/images/logo-dark.svg" class="header-logo-desktop" alt="smart Mirror"/>
-            <img src="assets/images/logo-mobile.svg" class="header-logo-mobile" alt="smart Mirror"/>
+
+        <div class="header-menu">
+            <div class="bars" onclick="open_menu_mobile_menu()"><i class="fa fa-bars bars-menu-icon"></i></div>
+            <ul class="header-menu-list ">
+                <li>
+                    <a href="#about_product">
+                    <p>About Product</p>
+                    <div class="line-active active" id="about-product-line-menu"></div>
+                </a>
+                </li>
+                <li>
+                    <a href="#features">
+                    <p>Features</p>
+                    <div class="line-active" id="features-line-menu"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#send_request">
+                    <p>Send Request</p>
+                    <div class="line-active" id="send-request-line-menu"></div>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <img src="assets/images/logo-dark.svg" class="header-logo-desktop" alt="smart Mirror" />
+        <img src="assets/images/logo-mobile.svg" class="header-logo-mobile" alt="smart Mirror" />
 
     </header>
-  <section class="header-section">
+    <section class="header-section">
         <div class="site-content">
             <h1 class="title-site-content">Smart Mirror</h1>
             <p class="description-site-content">
@@ -55,12 +61,12 @@
                 shower
             </p>
         </div>
-       <a href="#about_product"> <img src="assets/images/line-section.svg" class="line-section" alt=""/>
-        <img src="assets/images/line-section-mobile.svg" class="line-section-mobile" alt=""/>
-    </a>
+        <a href="#about_product"> <img src="assets/images/line-section.svg" class="line-section" alt="" />
+            <img src="assets/images/line-section-mobile.svg" class="line-section-mobile" alt="" />
+        </a>
     </section>
-       <div class="space-row"></div>
-  <main class="main-continer">
+    <div class="space-row"></div>
+    <main class="main-continer">
         <div class="container">
             <div class="row" id="about_product">
                 <div class="col-md-6 justify-content-center">
@@ -88,14 +94,14 @@
                     </div>
                 </div>
             </div>
-             <div class="space-row"></div>
-            <div class="row justify-content-center" >
+            <div class="space-row"></div>
+            <div class="row justify-content-center" id="features">
                 <div class="col">
                     <h1 class="title-option text-center"> Features </h1>
                     <div class="line-title-option line-title-option-feature"></div>
                 </div>
             </div>
-           <div class="row justify-content-center feature-box" id="features">
+            <div class="row justify-content-center feature-box" id="features">
                 <div class="col">
                     <div class="feature-option justify-content-center">
                         <img src="assets/images/icon/screen.svg" class="icon-screen" alt="screen" />
@@ -138,8 +144,8 @@
         </div>
     </main>
     <div class="space-row"></div>
-    <section class="send-request">
-         <div class="row justify-content-center">
+    <section class="send-request" id="send_request">
+        <div class="row justify-content-center">
             <div class="col-md-3">
                 <h1 class="title-option text-center"> Send Request to us </h1>
                 <div class="line-title-option line-title-option-send-Request"></div>
@@ -167,25 +173,25 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col">
-                         <button class="btn btn-send-request w-100">Send Request</button>
+                            <button class="btn btn-send-request w-100">Send Request</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-      
+
     </section>
-     <div class="space-row"></div>
+    <div class="space-row"></div>
     <footer class="footer">
         <img class="footer-logo" src="assets/images/logo-light.svg" alt="" />
-         <div class="footer-social">
+        <div class="footer-social">
             <a href="#"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="#"> <i class="fa fa-youtube" aria-hidden="true"></i></a>
             <a href="#"> <i class="fa fa-dribbble" aria-hidden="true"></i></a>
             <a href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
 
         </div>
-       <p class="copy-site-content">© 2000-2021, All Rights Reserved</p>
+        <p class="copy-site-content">© 2000-2021, All Rights Reserved</p>
     </footer>
 </body>
 
