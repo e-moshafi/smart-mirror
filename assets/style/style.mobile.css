@@ -104,6 +104,10 @@ body {
     top: 4px;
     left: 10px;
   }
+  .about-product-content{
+      text-align: center;
+      margin-top:12px
+  }
   .title-option {
     font-size: 32px;
     color: #3f3f3f;
@@ -116,13 +120,14 @@ body {
     box-shadow: 0 3px 0 #00000029;
   }
   .line-title-option-about-product {
-    width: 133px;
+    width: 78px;
+    margin-left: 141px;
   }
   .description-option {
     font-family: roboto-black !important;
     margin-top: 17px;
     color: #777777;
-    width: 483px;
+    width: 100%;
   }
   .space-row {
     height: 23px;

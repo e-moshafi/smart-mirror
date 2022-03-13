@@ -41,6 +41,9 @@ body {
   .header-logo-mobile {
     display:none;
   }
+  .bars{
+    display: none;
+  }
   .header-menu-list {
     list-style-type: none;
     float: left;
