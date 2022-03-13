@@ -57,6 +57,10 @@ body {
     font-size: 14px;
     font-family: roboto-regular !important;
   }
+  .header-menu-list li a{
+    text-decoration: none;
+    color: #696767;
+  }
   .header-menu-list li .line-active{
     width: 51px;
     height: 3px;

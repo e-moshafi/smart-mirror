@@ -80,6 +80,10 @@ body {
   .header-menu-list li .active {
     display: none !important;
   }
+  .header-menu-list li a{
+    text-decoration: none;
+    color: #696767;
+  }
   .border-image-viros {
     width: 100%;
     height: 190px;
