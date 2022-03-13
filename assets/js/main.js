@@ -15,3 +15,10 @@ window.onscroll= function(){
 // }
 // console.log(window.scrollY)
 }
+function open_menu_mobile_menu() {
+    if(document.querySelector('.header-menu-list').classList.contains('active')){
+        document.querySelector('.header-menu-list').classList.remove('active')
+    }else{
+        document.querySelector('.header-menu-list').classList.add('active')
+    }
+}

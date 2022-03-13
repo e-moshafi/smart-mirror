@@ -42,7 +42,8 @@ display: none;
       border-radius:10px;
       background:#fff;
       width: 151px;
-      top:30px;
+      top:50px;
+      left:30px;
       display:none;
     }
     .active{
