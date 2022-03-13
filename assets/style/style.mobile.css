@@ -188,10 +188,13 @@ body {
     background-repeat: no-repeat;
     background-size: 100% ;
   }
+  .send-request .row{
+width: 100% !important;
+  }
   .rounded-1 {
     border-radius: 6px;
     box-shadow: 0 3px 0 #00000029;
-    height: 45px;
+    height: 50px;
   }
   .line-title-option-send-Request {
     width: 144px;
@@ -199,6 +202,7 @@ body {
   }
   .form-send-request {
     margin-top: 44px;
+    margin-left: 40px;
   }
   .rounded-1::placeholder {
     color: #bdbdbd;
