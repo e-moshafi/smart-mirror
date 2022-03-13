@@ -109,7 +109,7 @@ body {
       margin-top:12px
   }
   .title-option {
-    font-size: 32px;
+    font-size: 24px;
     color: #3f3f3f;
   }
   .line-title-option {
@@ -133,8 +133,8 @@ body {
     height: 23px;
   }
   .line-title-option-feature {
-    width: 49px;
-    margin-left: 40%;
+    width: 60px;
+    margin-left: 42%;
   }
   .feature-box {
     margin-top: 24px;
