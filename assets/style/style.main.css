@@ -38,6 +38,9 @@ body {
     margin-right: 120px;
     float: right;
   }
+  .header-logo-mobile {
+    display:none;
+  }
   .header-menu-list {
     list-style-type: none;
     float: left;
