@@ -17,8 +17,12 @@ window.onscroll= function(){
 }
 function open_menu_mobile_menu() {
     if(document.querySelector('.header-menu-list').classList.contains('active')){
-        document.querySelector('.header-menu-list').classList.remove('active')
+        document.querySelector('.header-menu-list').classList.remove('active');
+        document.querySelector('.bars-menu-icon').classList.remove('fa-times')
+        document.querySelector('.bars-menu-icon').classList.add('fa-bars')
     }else{
         document.querySelector('.header-menu-list').classList.add('active')
+        document.querySelector('.bars-menu-icon').classList.add('fa-times')
+        document.querySelector('.bars-menu-icon').classList.remove('fa-bars')
     }
 }
