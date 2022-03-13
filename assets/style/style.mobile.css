@@ -172,10 +172,12 @@ body {
   }
   .feature-title {
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: #3f3f3f;
     text-shadow: 0 3px 0 #00000029;
     font-family: roboto-regular !important;
+    width: 130px;
+    margin-left:10px
   }
   .send-request {
     width: 98%;
