@@ -5,7 +5,7 @@ window.onscroll = function () {
     for (i = 0, j = 20; i < 20; i++, j--) {
         var scroll_bottom=document.getElementById(item).offsetTop+document.getElementById(item).offsetHeight;
         if ((window.scrollY == (document.getElementById(item).offsetTop + i) || window.scrollY == (document.getElementById(item).offsetTop - j))|| (window.scrollY ==(scroll_bottom + i) || window.scrollY == (scroll_bottom - j))) {
-            console.log('ok');
+            console.log('ok'); 
         }
     }
    })
