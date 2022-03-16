@@ -90,7 +90,7 @@ body {
     border-radius: 48px;
     border: 1px solid #b4c9f1;
     position: relative;
-    /* box-shadow: 0 3px 0 #00000029; */
+    box-shadow: 0 3px 0 #00000029;
   }
   .header-section {
     position: relative;
