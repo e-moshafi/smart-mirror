@@ -26,3 +26,4 @@ function open_menu_mobile_menu() {
         document.querySelector('.bars-menu-icon').classList.remove('fa-bars')
     }
 }
+function icon_hidden_form('')

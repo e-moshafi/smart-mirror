@@ -285,4 +285,7 @@ width: 100% !important;
   .textarea-rounded-icon{
     margin-top:-112px;
   }
+  .deactive-element-show{
+  display:none;
+}
 }
