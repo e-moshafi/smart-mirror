@@ -161,20 +161,20 @@
                     <div class="row justify-content-center">
                         <div class="col-md">
                             <div class="form-group">
-                                <input type="text" class="form-control rounded-1" placeholder="Name" />
+                                <input type="text" class="form-control rounded-1" onkeyup="icon_hidden_form(this.value,'name')" placeholder="Name" />
                                 <img src="assets/images/icon/user_avatar.svg" class="input-rounded-icon rounded-icon-name"/>
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="form-group">
-                                <input type="text" class="form-control rounded-1" placeholder="Email" />
+                                <input type="text" class="form-control rounded-1" onkeyup="icon_hidden_form(this.value,'email')" placeholder="Email" />
                                 <img src="assets/images/icon/mail.svg" class="input-rounded-icon rounded-icon-email"/>
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col">
-                            <textarea class="form-control rounded-1" rows="6" placeholder="Message"></textarea>
+                            <textarea class="form-control rounded-1" rows="6" onkeyup="icon_hidden_form(this.value,'message')" placeholder="Message"></textarea>
                             <img src="assets/images/icon/message.svg" class="textarea-rounded-icon rounded-icon-message"/>
                         </div>
                     </div>

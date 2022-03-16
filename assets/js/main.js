@@ -26,4 +26,16 @@ function open_menu_mobile_menu() {
         document.querySelector('.bars-menu-icon').classList.remove('fa-bars')
     }
 }
-function icon_hidden_form('')
+function icon_hidden_form(value_input,name_element){
+    var element = document.querySelector('.rounded-icon-'+name_element);
+    if(value_input===''||value_input===' '){
+        if(element.classList.contains('deactive-element-show')===true){
+            element.classList.remove('deactive-element-show');
+        }
+    }else{
+        if(element.classList.contains('deactive-element-show')===false){
+            element.classList.add('deactive-element-show');
+        }
+
+    }
+}
