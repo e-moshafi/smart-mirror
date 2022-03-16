@@ -257,6 +257,15 @@ body {
     /* box-shadow: 0 3px 0 #00000029; */
     height: 45px !important;
   }
-  
+  .input-rounded-icon,.textarea-rounded-icon{
+    float: right;
+    margin-right:15px;
+  }
+  .input-rounded-icon{
+    margin-top:-32px;
+  }
+  .textarea-rounded-icon{
+    margin-top:-112px;
+  }
 
 }
