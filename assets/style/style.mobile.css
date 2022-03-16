@@ -275,4 +275,9 @@ width: 100% !important;
     /* box-shadow: 0 3px 0 #00000029; */
     height: 45px !important;
   }
+  .input-rounded-icon{
+    float: right;
+    margin-top:-32px;
+    margin-right:15px;
+  }
 }
