@@ -1,5 +1,5 @@
 window.onscroll = function () {
-    const divs = ['about_product'];
+    const divs = ['about_product','features','send_request'];
     divs.forEach(function (item) {
         var j, i;
         for (i = 0, j = 20; i < 20; i++, j--) {
@@ -11,9 +11,9 @@ window.onscroll = function () {
                     element_line.classList.add('active')
                 }
             }else{
-                if (element_line.classList.contains('active')) {
-                    element_line.classList.remove('active')
-                } 
+                // if (element_line.classList.contains('active')) {
+                //     element_line.classList.remove('active')
+                // } 
             }
         }
     })
